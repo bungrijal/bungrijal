@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV — Rijaludin Muhsin</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* A4-ish page feel on large screens */
+      .cv-page {
+        max-width: 980px;
+      }
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          background: white !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-page {
+          break-after: page;
+          page-break-after: always;
+        }
+        .shadow-sm,
+        .shadow,
+        .shadow-md,
+        .shadow-lg {
+          box-shadow: none !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="bg-neutral-100 text-neutral-900">
+    <!-- Top helper bar -->
+    <div class="no-print sticky top-0 z-50 border-b border-neutral-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="text-sm font-semibold text-neutral-800">CV — Rijaludin Muhsin</div>
+        <div class="flex items-center gap-2">
+          <button
+            onclick="window.print()"
+            class="rounded-lg bg-neutral-900 px-3 py-1.5 text-sm font-semibold text-white hover:bg-neutral-800"
+          >
+            Print / Save PDF
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main class="mx-auto max-w-5xl px-0 py-0 sm:px-0 lg:px-0">
+      <!-- ============ PAGE 1 ============ -->
+      <section class="print-page cv-page mx-auto overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-neutral-200">
+
+        <div class="grid gap-8 p-6 sm:p-8 md:grid-cols-12">
+          <!-- HEADER -->
+          <section class="md:col-span-12 sm:col-span-12 text-center">
+            <div>
+              <h1 class="text-2xl font-semibold tracking-[0.35em] text-neutral-900 sm:text-3xl">
+                RIJALUDIN MUHSIN
+              </h1>
+              <p class="mt-2 text-sm font-semibold tracking-[0.35em] text-neutral-600">
+                SENIOR SOFTWARE ENGINEER
+              </p>
+            </div>
+
+            <div class="my-4 h-px w-full bg-neutral-200"></div>
+          </section>
+
+          <!-- LEFT COLUMN -->
+          <aside class="md:col-span-4 sm:col-span-4">
+
+            <div>
+              <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">CONTACT</h2>
+              <ul class="mt-3 space-y-2 text-sm text-neutral-800">
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <a href="tel:+6281809235714" class="hover:underline">+6281809235714</a>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <a class="hover:underline" href="mailto:rijaludinmuhsin@gmail.com">rijaludinmuhsin@gmail.com</a>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Yogyakarta, Indonesia</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <a
+                    class="hover:underline"
+                    href="https://linkedin.com/in/rijaludinmuhsin"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    linkedin.com/in/rijaludinmuhsin
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="my-6 h-px w-full bg-neutral-200"></div>
+
+            <div>
+              <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">SKILLS</h2>
+              <ul class="mt-3 space-y-2 text-sm text-neutral-800">
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Software Development</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Marketing Technology</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Data and Customer Migration</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Scalable Web Scraping</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="my-6 h-px w-full bg-neutral-200"></div>
+
+            <div>
+              <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">EDUCATION</h2>
+              <div class="mt-3">
+                <p class="text-sm font-semibold text-neutral-900">STMIK LPKIA</p>
+                <p class="text-sm text-neutral-700">Bachelor of Informatics Engineering</p>
+                <div class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-neutral-600">
+                  <span class="rounded-full bg-neutral-100 px-2 py-0.5 ring-1 ring-neutral-200">2006 - 2010</span>
+                  <span class="rounded-full bg-neutral-100 px-2 py-0.5 ring-1 ring-neutral-200">GPA: 3.65 / 4.0</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="my-6 h-px w-full bg-neutral-200"></div>
+
+            <div>
+              <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">REFERENCES</h2>
+              <ul class="mt-3 space-y-2 text-sm text-neutral-800">
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Grade.us: Nick Sardo, Sam Cantor</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Reputology: Nori Yoshida</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="mt-[2px] inline-block h-2 w-2 rounded-full bg-neutral-900"></span>
+                  <span>Qontak: Brendan Rakphongphairoj</span>
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <!-- RIGHT COLUMN -->
+          <section class="md:col-span-8 sm:col-span-8">
+            <header>
+              <div class="flex items-end justify-between gap-4">
+                <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">PROFILE SUMMARY</h2>
+              </div>
+
+              <p class="mt-3 text-sm leading-4 text-neutral-800">
+                Experienced software engineer in building and operating production systems across agencies, startups,
+                and product companies.
+              </p>
+              <p class="mt-3 text-sm leading-4 text-neutral-800">
+                Proven track record leading multi-year customer and data migrations across acquired
+                platforms, while maintaining system stability and customer trust.
+              </p>
+              <p class="mt-3 text-sm leading-4 text-neutral-800">
+                Deep expertise in web scraping at scale,
+                background job orchestration, API integrations, and incremental system modernization.
+              </p>
+              <p class="mt-3 text-sm leading-4 text-neutral-800">
+                Passionate about
+                creating innovative solutions that drive business success and deliver exceptional user experiences.
+              </p>
+            </header>
+
+            <div class="my-6 h-px w-full bg-neutral-200"></div>
+
+            <div class="flex items-end justify-between gap-4">
+              <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">WORK EXPERIENCE</h2>
+              <div class="text-xs font-semibold tracking-[0.35em] text-neutral-400">(1 / 3)</div>
+            </div>
+
+            <article class="mt-4 border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  Grade.us <span class="font-normal text-neutral-500">| Remote | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Dec 2018 - Present</div>
+              </div>
+
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Senior Software Engineer</div>
+              <p class="mt-2 text-sm leading-4 text-neutral-800">
+                Gradeus is an online reputation management SaaS platform - backed by Alpine Software Group, later acquired
+                by The Transparency Company.
+              </p>
+
+              <div class="mt-4 space-y-4">
+                <div>
+                  <h3 class="text-sm font-semibold text-neutral-900">Platform Migration: Gradeus to GatherUp</h3>
+                  <ul class="mt-2 space-y-2 text-sm leading-4 text-neutral-800">
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Lead engineer on the Gradeus side for a large-scale, programmatic customer migration to GatherUp.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Designed migration APIs and internal tooling to move customers incrementally with minimal disruption.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Analyzed feature gaps, proposed technical solutions, and implemented bridging workflows.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Solved complex cases like migrating website widgets without requiring customers to change embed snippets.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Continuously optimized migration workflows to reduce manual effort and operational risk.</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="text-sm font-semibold text-neutral-900">Scraping &amp; Review Infrastructure</h3>
+                  <ul class="mt-2 space-y-2 text-sm leading-4 text-neutral-800">
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Owned and evolved the review scraping platform supporting multiple sister companies.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Extracted scrapers from the monolith into a dedicated service and exposed functionality via REST APIs.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Implemented headless Chrome in serverless environments, autoscaling workers, and log rotation safeguards.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Maintained scrapers against upstream changes and anti-scraping mechanisms, including proxy tuning.</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      
+      <!-- ============ PAGE 2 ============ -->
+      <section class="print-page cv-page mx-auto mt-6 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-neutral-200">
+
+        <div class="p-6 sm:p-8">
+          <div class="flex items-end justify-between gap-4">
+            <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">WORK EXPERIENCE</h2>
+            <div class="text-xs font-semibold tracking-[0.35em] text-neutral-400">(2 / 3)</div>
+          </div>
+
+          <div class="mt-5 space-y-6">
+            <!-- Grade.us Core Platform -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <h3 class="text-sm font-semibold text-neutral-900">Grade.us Core Platform &amp; Performance</h3>
+              <ul class="mt-2 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Re-architected reporting system from slow, monolithic generation to modular components, resulting in near-instant load times.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Major contributor to the core features: Review Monitoring, Review Requests, Web Widgets, and Feedback Landing Pages.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Migrated key UI flows to React behind feature flags, allowing gradual adoption.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Redesigned the review request scheduler from Redis-based structures to PostgreSQL for better performance, predictability, and maintainability.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Maintained and extended Google &amp; Facebook API integrations for review ingestion, listing sync, replies, and auto-sharing.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Reputology -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  Reputology <span class="font-normal text-neutral-500">| Remote | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Jan 2017 - Oct 2021, Part-time: Sep 2014 - Dec 2016</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Principal Software Engineer</div>
+              <p class="mt-2 text-sm leading-4 text-neutral-800">
+                Reputology is an online reputation management SaaS platform - acquired by Grade.us in 2018
+              </p>
+
+              <div class="mt-4 space-y-4">
+                <div>
+                  <h4 class="text-sm font-semibold text-neutral-900">Platform Migration: Reputology to Gradeus</h4>
+                  <ul class="mt-2 space-y-2 text-sm leading-4 text-neutral-800">
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Key engineer during Reputology’s acquisition by Grade.us.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Maintained production stability for existing customers while coordinating and executing customer migrations to the new platform.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Operated in an extremely lean setup (eventually solo engineer), owning development, infrastructure, and operations.</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 class="text-sm font-semibold text-neutral-900">Scraping &amp; Review Infrastructure</h4>
+                  <ul class="mt-2 space-y-2 text-sm leading-4 text-neutral-800">
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Built and maintained review crawlers and real-time integrations with Google and Facebook APIs.</span>
+                    </li>
+                    <li class="flex gap-2">
+                      <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                      <span>Integrated early NLP and AI tooling (keyword detection, sentiment analysis) using IBM NLP, Google NLP, and MIT research models.</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- Qontak -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  Qontak Pte. Ltd. <span class="font-normal text-neutral-500">| On-site | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Apr 2016 - Dec 2016</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Lead Software Engineer</div>
+              <ul class="mt-3 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Led a team of 5 engineers.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Transformed a manual, once-daily crawling system into a fully automated, scalable pipeline running every 15 minutes.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Improved crawl frequency and reliability while keeping infrastructure costs under control.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built large-scale email scheduling and tracking systems (Gmail &amp; Outlook).</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- SoftwareSeni -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  SoftwareSeni <span class="font-normal text-neutral-500">| On-site | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Oct 2013 - Oct 2014</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Senior Software Engineer</div>
+              <ul class="mt-3 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built and enhanced features for villalet.com, a curated villa booking platform, covering admin tools, booking flows, customer management, and property management.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Led infrastructure improvements on Heroku and AWS, including CDN setup, to improve performance and reliability.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Integrated with multiple third-party booking systems, handling data synchronization and edge cases across providers.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Implemented multi-currency support, enabling the platform to serve regional and international customers.</span>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PAGE 3 ============ -->
+      <section class="cv-page mx-auto mt-6 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-neutral-200">
+
+        <div class="p-6 sm:p-8">
+          <div class="flex items-end justify-between gap-4">
+            <h2 class="text-xs font-bold tracking-[0.5em] text-neutral-500">WORK EXPERIENCE</h2>
+            <div class="text-xs font-semibold tracking-[0.35em] text-neutral-400">(3 / 3)</div>
+          </div>
+
+          <div class="mt-5 space-y-6">
+            <!-- Gopher -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  Gopher Indonesia <span class="font-normal text-neutral-500">| On-site | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Apr 2013 - Oct 2013</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Google Adwords Developer / Ruby on Rails Developer</div>
+              <ul class="mt-3 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Contributed to a Google Ads automation platform serving customers across New Zealand, Indonesia, and Singapore.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built and enhanced features to aggregate Google Ads performance data across multiple countries, providing both per-country and global insights.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built new features of reporting and analytics.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Improved data accuracy and system reliability while maintaining existing customer workflows.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Worked closely with product and operations to ensure automated campaigns and reporting met real-world advertiser needs.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Noiz -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  Noiz Indonesia <span class="font-normal text-neutral-500">| On-site | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Mar 2012 - Mar 2013</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Web Developer</div>
+              <ul class="mt-3 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built and maintained systems to monitor online conversations across social media, blogs, and news sites.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Developed web scraping and crawling pipelines to collect large volumes of mentions based on client-defined keywords and topics.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Automated daily, weekly, and monthly reporting for corporate, political, and public-figure clients.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Supported media and communications teams by providing timely, data-driven insights for reputation management and narrative shaping.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Worked with noisy, unstructured data sources, ensuring relevance, accuracy, and consistency of monitored content.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Walden -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  PT. Walden Global Services <span class="font-normal text-neutral-500">| On-site | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Jan 2011 - Dec 2011</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Ruby on Rails Developer</div>
+              <ul class="mt-3 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built and enhanced Ruby on Rails applications for international clients.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Worked on both greenfield projects and existing production systems.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Implemented background jobs, real-time features, and third-party API integrations.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Ascend Points -->
+            <article class="border-b border-neutral-200 pb-4 sm:pb-5">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                <div class="font-semibold text-neutral-900">
+                  Ascend Points <span class="font-normal text-neutral-500">| On-site | Full-time</span>
+                </div>
+                <div class="text-sm text-neutral-600">Nov 2009 - Dec 2010</div>
+              </div>
+              <div class="mt-2 text-sm font-semibold text-neutral-900">Ruby on Rails Developer</div>
+              <ul class="mt-3 space-y-2 text-sm leading-4 text-neutral-800">
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Started my professional career.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="mt-2 inline-block h-1.5 w-1.5 rounded-full bg-neutral-900"></span>
+                  <span>Built and enhanced Ruby on Rails applications for international and local clients.</span>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
